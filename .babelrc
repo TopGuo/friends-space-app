@@ -1,0 +1,11 @@
+{
+  "presets": ["babel-preset-expo"],
+  "env": {
+    "development": {
+      "plugins": ["transform-react-jsx-source"]
+    }
+  },
+  "plugins": [
+    ["import", { libraryName: "antd-mobile" }] // 与 Web 平台的区别是不需要设置 style
+  ]
+}
