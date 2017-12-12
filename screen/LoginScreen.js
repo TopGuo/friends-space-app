@@ -10,8 +10,8 @@ import {
 
 import { 
     Button,
-    Flex,
     Toast,
+    Flex,
 } from 'antd-mobile';
 
 import accountManager from '../data_server/AccountManager';

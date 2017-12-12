@@ -2,9 +2,9 @@ import {
     AsyncStorage
 } from 'react-native';
 
-const findFriendURL = 'http://192.168.199.165:3000/api/findUser';
-const getFriendURL = 'http://192.168.199.165:3000/api/getFollow';
-const followFriendURL = 'http://192.168.199.165:3000/api/follow';
+const findFriendURL = 'http://60.205.141.116:9010/api/findUser';
+const getFriendURL = 'http://60.205.141.116:9010/api/getFollow';
+const followFriendURL = 'http://60.205.141.116:9010/api/follow';
 
 
 class FriendManager {

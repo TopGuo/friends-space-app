@@ -20,7 +20,6 @@ export default class FriendItem extends Component {
         <TouchableOpacity 
             style={styles.container}
             onPress={()=>{
-                console.log('xxx');
                 if(this.props.tapItem){
                     this.props.tapItem(this.props);
                 }
@@ -29,7 +28,7 @@ export default class FriendItem extends Component {
         >
             <Image 
                 style={styles.image}
-                source={{uri:baseURL+this.props.image}}
+                source={{uri:this.props.image}}
             />
             <View>
                 <Text

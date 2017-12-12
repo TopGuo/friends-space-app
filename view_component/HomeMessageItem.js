@@ -15,7 +15,6 @@ import {
     Grid,
 } from 'antd-mobile';
 
-const baseURL = 'http://192.168.199.165:3000/resource/image/'
 
 export default class HomeMessageItem extends Component {
   render() {
@@ -31,7 +30,7 @@ export default class HomeMessageItem extends Component {
         <View style={styles.rightItem}>  
           <Image 
             style={styles.image}
-            source={{uri:baseURL+this.props.user.image}}
+            source={{uri:this.props.user.image}}
           />
         </View>
         <View style={styles.leftItem}> 
@@ -46,7 +45,7 @@ export default class HomeMessageItem extends Component {
               return (
                 <Image 
                   style={styles.contentImage}
-                  source={{uri:baseURL+el.icon}}
+                  source={{uri:el.icon}}
                 />
               )
             }}

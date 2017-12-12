@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import { 
     Text, 
     View,
@@ -106,3 +106,7 @@ const styles = StyleSheet.create({
         backgroundColor:'#ffffff',
     },
   })
+
+
+
+  

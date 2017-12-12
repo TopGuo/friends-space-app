@@ -24,7 +24,6 @@ import {
 
 import userManager from '../data_server/UserManager';
 
-const baseURL = 'http://192.168.199.165:3000/resource/image/';
 
 export default class UpdateMySelfScreen extends Component {
 
@@ -56,17 +55,6 @@ export default class UpdateMySelfScreen extends Component {
 
 
   render() {
-    
-    let  imageSource = {
-      uri:baseURL+this.state.image
-    }
-    if(this.state.isLocalImage){
-      imageSource = {
-        uri:this.state.image
-      }
-    }
-
-    console.log(imageSource);
   
     return (
       <View style={styles.container}>
@@ -85,7 +73,7 @@ export default class UpdateMySelfScreen extends Component {
         >
           <Image 
             style={styles.image}
-            source={imageSource}
+            source={{uri:this.state.image}}
           />  
         </TouchableOpacity> 
         <List>

@@ -2,9 +2,9 @@ import {
     AsyncStorage
 } from 'react-native';
 
-const createUserURL = 'http://192.168.199.165:3000/api/createUser';
-const getUserURL = 'http://192.168.199.165:3000/api/getUser';
-const updateUserURL = 'http://192.168.199.165:3000/api/updateUser';
+const createUserURL = 'http://60.205.141.116:9010/api/createUser';
+const getUserURL = 'http://60.205.141.116:9010/api/getUser';
+const updateUserURL = 'http://60.205.141.116:9010/api/updateUser';
 
 class UserManager{
 
@@ -183,3 +183,5 @@ class UserManager{
 }
 
 export default new UserManager();
+
+

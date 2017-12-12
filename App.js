@@ -1,6 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
+
 import { 
   StackNavigator,
   TabNavigator,
@@ -10,6 +11,8 @@ import {
 import { 
   Toast
 } from 'antd-mobile';
+
+   // "react-native": "^0.49.5",
 
 
 import PubSub from 'pubsub-js';
@@ -28,25 +31,6 @@ import ChangePasswordScreen from './screen/ChangePasswordScreen';
 
 import accountManager from './data_server/AccountManager';
 
-//accountManager.logout();
-
-// PubSub.subscribe( 'Toast',(msg,data)=>{
-//   switch(data.type){
-//     case 'fail':{
-
-//     };break;
-//     case 'loading':{
-      
-//     };break;
-//     case 'fail':{
-
-//     };break;
-//     case 'fail':{
-      
-//     };break;
-
-//   }
-// });
 
 const RootTabNavigator = TabNavigator({
   HomeScreen:{screen:HomeScreen},
@@ -74,4 +58,5 @@ const RootNavigator = StackNavigator({
 })
 
 export default RootNavigator;
+
 

@@ -1,10 +1,8 @@
-import {
-    AsyncStorage
-} from 'react-native';
+import { AsyncStorage } from 'react-native';
 
-const loginURL = 'http://192.168.199.165:3000/api/login';
-const registerURL = 'http://192.168.199.165:3000/api/register';
-const changePasswordURL = 'http://192.168.199.165:3000/api/changePassword'
+const loginURL = 'http://60.205.141.116:9010/api/login';
+const registerURL = 'http://60.205.141.116:9010/api/register';
+const changePasswordURL = 'http://60.205.141.116:9010/api/changePassword'
 
 class AccountManager {
 

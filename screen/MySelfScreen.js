@@ -73,7 +73,7 @@ export default class MySelfScreen extends Component {
       <View style={styles.container}>
         <Image 
           style={styles.image}
-          source={{uri:baseURL+this.state.user.image}}
+          source={{uri:this.state.user.image}}
         />
         <List>
           <InputItem
