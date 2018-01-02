@@ -2,7 +2,7 @@ import {
     AsyncStorage
 } from 'react-native';
 
-const postMessageURL = 'http://60.205.141.116:9010/api/postMessage';
+const postMessageURL = 'http://60.205.141.116:9010/api/postAppMessage';
 const homeMessageURL = 'http://60.205.141.116:9010/api/homeMessage';
 
 class MessageManager {
